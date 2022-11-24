@@ -1,0 +1,83 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+    <meta charset="utf=8">
+    <link rel="stylesheet" href ="ecommerce.css">
+    <script defer src="./script.js"></script>
+    <link rel="icon" type="image/x-icon" href="logo2.png">
+    <meta name="author" content="Tee Jin Sheng">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<div class = "bg">
+    <br>
+    <br>
+    <nav class ="nav">
+        <div class="space">
+            <a href= "video.html" class="vid";><img alt="Video" src="video.png" width="30px" height="30px"></a> &emsp;
+            <a href= "home.html" class="button1";>Home</a> &emsp; 
+            <a href= "products.html" class="button1";>Products</a> &emsp; 
+            <a href= "form.html" class="button1";>Contact Us</a> &emsp; 
+            <a href= "login.html" class="button1";>Login</a> &emsp;
+            <a href= "cart.html" class="cart1";><img alt="Shopping Cart" src="cart.png" width="30px" height="30px"></a> &emsp;
+        </div>
+    </nav>
+    <br>
+<h1>Contact Us</h1>
+<body>
+    <div class="center">
+    <form id="form" action="/">
+        <br>
+        <br>
+        <div class="contact1">
+            <label for="Mr.">Mr</label>
+            <input type="radio" id="Mr." name="title" value="Mr." required>
+            &emsp;
+            <label for="Mrs.">Mrs</label>
+            <input type="radio" id="Mrs." name="title" value="Mrs." required>
+            <br><br>
+        </div>
+        <div class="contact">
+            <label for="name">Name</label>
+            <input id="username" name="username" placeholder="John" type="text">
+            <div class="error"></div>
+        </div>
+        <br>
+
+        <div class="contact">
+            <label for="email">Email</label>
+            <input id="email" name="email" placeholder="john123@gmail.com" type="text">
+            <div class="error"></div>
+        </div>
+        <br>
+        <div class="contact">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" placeholder="+60123456789" type="text">
+            <div class="error"></div>
+        </div>
+        <br>
+        <div class="contact">
+            <label for="car">Car model</label>
+            <input id="car" name="car" placeholder="BMW G20 (2020)" type="text">
+            <div class="error"></div>
+        </div>
+        <br>
+        <div class="contact">
+            <label for="address">Address</label>
+            <br>
+            <textarea form rows="3" cols="40" id="address" name="address"></textarea>
+        </div>
+        <br>
+        <div class="contact">
+            <label for="message">Enquiry</label>
+            <br>
+            <textarea form rows="3" cols="40" id="messages" name="messages"></textarea>
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+        <br><br><br>
+    </form>
+    </div>
+</div>
+</body>
+</html>
